@@ -101,9 +101,7 @@ public sealed partial class ThemeService
 
     private static void _AprilFoolLogic()
     {
-        // for HMCL theme on April Fools' Day
         if (Basics.IsAprilFool) Config.Preference.WindowTitleTypeConfig.TriggerEvent(ConfigEvent.Changed, null);
-        else if (CurrentTheme == ColorTheme.HmclBlue) CurrentTheme = ColorTheme.CatBlue;
     }
 
     /// <summary>

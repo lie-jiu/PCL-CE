@@ -12,9 +12,13 @@ namespace PCL;
 
 public partial class PageSetupUI
 {
-    public string[] ThemeColors => Basics.IsAprilFool 
-        ? [Lang.Text("Setup.Ui.Theme.Color.SkyBlue"), Lang.Text("Setup.Ui.Theme.Color.CatBlue"), Lang.Text("Setup.Ui.Theme.Color.CrashBlue"), Lang.Text("Setup.Ui.Theme.Color.Hmcl")]
-        : [Lang.Text("Setup.Ui.Theme.Color.SkyBlue"), Lang.Text("Setup.Ui.Theme.Color.CatBlue"), Lang.Text("Setup.Ui.Theme.Color.CrashBlue")];
+    public string[] ThemeColors =>
+    [
+        Lang.Text("Setup.Ui.Theme.Color.SkyBlue"),
+        Lang.Text("Setup.Ui.Theme.Color.CatBlue"),
+        Lang.Text("Setup.Ui.Theme.Color.CrashBlue"),
+        Lang.Text("Setup.Ui.Theme.Color.Hmcl")
+    ];
     
     public new bool isLoaded;
 
