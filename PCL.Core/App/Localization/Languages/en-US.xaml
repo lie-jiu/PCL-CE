@@ -1917,8 +1917,6 @@
     <sys:String x:Key="Main.Tab.Launch">Launch</sys:String>
     <sys:String x:Key="Main.Tab.Settings">Settings</sys:String>
     <sys:String x:Key="Main.Tab.Tools">Tools</sys:String>
-    <sys:String x:Key="Main.Telemetry.Message">After telemetry data collection is enabled, the launcher will collect and report errors and device environment information. This can help developers fix potential issues and better plan and develop the launcher.&#xA;If this feature is enabled, we will collect the following information:&#xA;&#xA;- Errors that occur in the launcher&#xA;- Launcher version information and identifier&#xA;- Windows system version and architecture&#xA;- Installed physical memory size&#xA;- NAT and IPv6 support status&#xA;- Whether you have used the original PCL, HMCL, or BakaXL&#xA;&#xA;This data is not associated with you, and we will never sell it to any third party.&#xA;If you do not want to enable telemetry, you can choose to decline. This will not affect normal use of other features, but may affect developers' ability to fix potential bugs.&#xA;You can change this setting at any time in launcher settings.</sys:String>
-    <sys:String x:Key="Main.Telemetry.Title">Enable telemetry data collection</sys:String>
     <sys:String x:Key="Main.Title.GameLog">Launch log</sys:String>
     <sys:String x:Key="Main.Title.InstanceSelect">Selection</sys:String>
     <sys:String x:Key="Main.Title.InstanceSetup">Properties - {0}</sys:String>
@@ -2196,10 +2194,6 @@
     <sys:String x:Key="Minecraft.Launch.AccountVerification.Title">Microsoft login</sys:String>
     <sys:String x:Key="Minecraft.Launch.Cancelled">Launch canceled!</sys:String>
     <sys:String x:Key="Minecraft.Launch.DemoMode">The game will launch in demo mode!</sys:String>
-    <sys:String x:Key="Minecraft.Launch.Donate.Decline">Pardon my rejection</sys:String>
-    <sys:String x:Key="Minecraft.Launch.Donate.Message">PCL CE has launched the game {0} times for you!&#xA;If PCL CE has been useful, maybe consider supporting the original PCL author...&#xA;Without everyone's support, it's hard for PCL to maintain updates for years while staying free and ad-free!</sys:String>
-    <sys:String x:Key="Minecraft.Launch.Donate.Support">Support!</sys:String>
-    <sys:String x:Key="Minecraft.Launch.Donate.Title">{0} launches!</sys:String>
     <sys:String x:Key="Minecraft.Launch.ExportScript.Cancelled">Exporting launch script canceled!</sys:String>
     <sys:String x:Key="Minecraft.Launch.ExportScript.Success">Launch script exported successfully!</sys:String>
     <sys:String x:Key="Minecraft.Launch.PurchaseHint.Later">Nah, maybe next time</sys:String>
@@ -2517,7 +2511,6 @@
     <sys:String x:Key="Setup.About.OriginalAuthor.Info">The original author of Plain Craft Launcher!</sys:String>
     <sys:String x:Key="Setup.About.OriginalAuthor.Name">LTCat (龙腾猫跃)</sys:String>
     <sys:String x:Key="Setup.About.SourceCode">Source code</sys:String>
-    <sys:String x:Key="Setup.About.SponsorOriginalAuthor">Sponsor original author</sys:String>
     <sys:String x:Key="Setup.About.Title">About</sys:String>
     <sys:String x:Key="Setup.About.UpstreamLegal.CopyrightText">Copyright © 龙腾猫跃 2016. All Rights Reserved.&#xD;Computer Software Copyright Registration No.: 2020SR0875133&#xD;Report violations to: hexdragon@vip.qq.com&#xD;NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sys:String>
     <sys:String x:Key="Setup.About.UpstreamLegal.OpenSource">Source code</sys:String>
@@ -2584,7 +2577,6 @@
     <sys:String x:Key="Setup.About.SpecialThanks.Name.Z0z0r4">z0z0r4</sys:String>
     <sys:String x:Key="Setup.About.SpecialThanks.OpenMcmod">Website</sys:String>
     <sys:String x:Key="Setup.About.SpecialThanks.OpenWebsite">Website</sys:String>
-    <sys:String x:Key="Setup.About.SpecialThanks.SponsorMirror">Sponsor mirror</sys:String>
     <sys:String x:Key="Setup.About.SpecialThanks.Title">Special thanks</sys:String>
 
     <!-- Setup.Feedback -->
@@ -3012,8 +3004,6 @@
     <sys:String x:Key="Setup.Misc.System.StopUsingPclCe.Message">This will delete all PCL CE settings, cached data, saved account information, and other related data from this computer. Your acceptance of any license agreements will also be revoked. PCL CE will close automatically when the process is complete.&#xA;&#xA;The following cannot be removed automatically:&#xA;- Local data from other PCL CE installations on this computer&#xA;- Your Natayark account&#xA;&#xA;To also remove PCL CE configuration files from Minecraft instances, choose "Continue and remove instance configs". This will not affect Minecraft settings, mods, saves, or other game data.&#xA;&#xA;This action cannot be undone. Are you sure you want to continue?</sys:String>
     <sys:String x:Key="Setup.Misc.System.StopUsingPclCe.Message.Final">This is the final warning! Are you sure you want to continue?&#xA;All PCL CE data on this computer will be lost forever! (A long time!)</sys:String>
     <sys:String x:Key="Setup.Misc.System.StopUsingPclCe.Title">Stop using PCL CE?</sys:String>
-    <sys:String x:Key="Setup.Misc.System.Telemetry">Enable telemetry data collection</sys:String>
-    <sys:String x:Key="Setup.Misc.System.Telemetry.ToolTip">When enabled, the launcher will collect and report errors and device environment information. This helps developers fix potential issues and better plan and develop the launcher.&#xA;The following information will be collected: launcher errors, launcher version information and identifier, Windows system version and architecture, installed physical memory size, NAT and IPv6 support status, and whether original PCL, HMCL, or BakaXL have been used.&#xA;&#xA;This data is not associated with you, and we will never sell it to any third party. Not enabling this will not affect other features, but may affect developers' ability to fix potential bugs.&#xA;&#xA;This change will take effect after restarting the launcher.</sys:String>
     <sys:String x:Key="Setup.Misc.System.Title">System</sys:String>
 
     <!-- Setup.Ui -->
@@ -3076,7 +3066,6 @@
 
     <sys:String x:Key="Setup.Ui.Basic.AdvancedMaterial">Advanced material</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.AdvancedMaterial.ToolTip">When enabled, blur effects will be applied to some transparent areas, such as cards.&#xA;Note that this feature consumes significant GPU resources and may cause lag!</sys:String>
-    <sys:String x:Key="Setup.Ui.Basic.BlueHint">Blue, blue, and more blue! Want to escape from the blue dilemma? Use the official snapshot build!</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.BlurMethod">Blur method</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.BlurMethod.Box">Box blur</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.BlurMethod.Box.ToolTip">Uses linear average sampling over a small area around each pixel, which is faster but may produce color blocks.&#xA;This blur may lose detail information but has better performance. It can be used on devices with poor performance.</sys:String>
@@ -3087,7 +3076,6 @@
     <sys:String x:Key="Setup.Ui.Basic.BlurRadius.ToolTip">Sets the sampling radius of the blur effect. Larger values produce stronger blur.</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.BlurSamplingRate">Sampling rate</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.BlurSamplingRate.ToolTip">Sets the sampling rate of the blur effect. Higher values produce finer blur.&#xA;If your device has poor performance, try lowering this value for better performance.</sys:String>
-    <sys:String x:Key="Setup.Ui.Basic.GetSnapshot">Get official snapshot build</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.LockWindow">Lock launcher size</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.Opacity">Opacity</sys:String>
     <sys:String x:Key="Setup.Ui.Basic.Opacity2">Opacity</sys:String>
